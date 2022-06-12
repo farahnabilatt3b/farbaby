@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/home" />
+
+    <TextView
+        android:id="@+id/text_view_date"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:textColor="#c7903d"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_alarm_bayi"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="25sp"
+        android:textColor="#c7903d"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Alarm Bayi"
+        android:backgroundTint="#96cce4" />
+
+    <Button
+        android:id="@+id/btn_list_lagu_tidur"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="25sp"
+        android:textColor="#c7903d"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="List Lagu Tidur"
+        android:backgroundTint="#96cce4" />
+
+    <Button
+        android:id="@+id/btn_history_alarm"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="25sp"
+        android:textColor="#c7903d"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="History Alarm"
+        android:backgroundTint="#96cce4" />
+
+</RelativeLayout>

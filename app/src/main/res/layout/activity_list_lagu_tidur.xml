@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListLaguTidur">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/list" />
+
+    <Button
+        android:id="@+id/btn_lagu_satu"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="25sp"
+        android:textColor="#c7903d"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Lagu 1"
+        android:backgroundTint="#96cce4" />
+
+    <Button
+        android:id="@+id/btn_lagu_dua"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="25sp"
+        android:textColor="#c7903d"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Lagu 2"
+        android:backgroundTint="#96cce4" />
+
+    <Button
+        android:id="@+id/btn_lagu_tiga"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="25sp"
+        android:textColor="#c7903d"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Lagu 3"
+        android:backgroundTint="#96cce4" />
+
+    <Button
+        android:id="@+id/btn_lagu_empat"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="25sp"
+        android:textColor="#c7903d"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Lagu 4"
+        android:backgroundTint="#96cce4" />
+
+    <Button
+        android:id="@+id/btn_lagu_lima"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="25sp"
+        android:textColor="#c7903d"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Lagu 5"
+        android:backgroundTint="#96cce4" />
+
+</RelativeLayout>

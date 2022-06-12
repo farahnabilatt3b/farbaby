@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Baby</string>
+    <string name="alarm_bayi">Alarm Bayi</string>
+    <string name="list_lagu_tidur">List Lagu Tidur</string>
+    <string name="history_alarm">History Alarm</string>
+    <string name="channel">CH1</string>
+</resources>

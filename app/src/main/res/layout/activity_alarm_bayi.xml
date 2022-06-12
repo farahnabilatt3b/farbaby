@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlarmBayi">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/notif" />
+
+    <TextView
+        android:id="@+id/nilaiSound"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:gravity="center"
+        android:textColor="#c7903d"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="615dp"
+        android:textSize="25sp"
+        android:textColor="#c7903d"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Pemutaran Lagu?" />
+
+    <Button
+        android:id="@+id/laguOn"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="670dp"
+        android:layout_marginRight="50dp"
+        android:backgroundTint="#96cce4"
+        android:gravity="center"
+        android:text="ON"
+        android:textColor="#c7903d"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/laguOff"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="670dp"
+        android:layout_marginRight="70dp"
+        android:backgroundTint="#96cce4"
+        android:gravity="center"
+        android:text="OFF"
+        android:textColor="#c7903d"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+</RelativeLayout>
